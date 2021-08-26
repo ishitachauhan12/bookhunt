@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+  <head>
+    <!-- Basic need -->
+    <title>Book-rate</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="profile" href="#" />
+
+    <!--Google Font-->
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600"
+    />
+    <!-- Mobile specific meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone-no" />
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="../css/plugins.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!--preloading-->
+    <div id="preloader">
+      <img class="logo" src="../image/plane.png" alt="" width="119" height="58" />
+      <div id="status">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!--end of preloading-->
+    <!--login form popup-->
+    <div class="login-wrapper" id="login-content">
+      <div class="login-content">
+        <a href="#" class="close">x</a>
+        <h3>Login</h3>
+        
+          <div class="row">
+            <label for="email">
+              Email:
+              <input
+                type="text"
+                name="email"
+                id="lemail"
+                placeholder=""
+                required="required"
+              />
+            </label>
+          </div>
+
+          <div class="row">
+            <label for="password">
+              Password:
+              <input
+                type="password"
+                name="password"
+                id="lpassword"
+                required="required"
+              />
+            </label>
+          </div>
+          <div class="row">
+            <h6 class="ansl"></h6>
+          </div>
+          
+          <div class="row">
+            <button id="lbtn">Login</button>
+          </div>
+        
+      
+      </div>
+    </div>
+    <!--end of login form popup-->
+    <!--signup form popup-->
+    <div class="login-wrapper" id="signup-content">
+      <div class="login-content">
+        <a href="#" class="close">x</a>
+        <h3>sign up</h3>
+      
+          <div class="row">
+            <label for="Name">
+              Name:
+              <input
+                type="text"
+                name="name"
+                id="sname"
+                
+              />
+            </label>
+          </div>
+
+          <div class="row">
+            <label for="email">
+              your email:
+              <input
+                type="text"
+                name="email"
+                id="semail"
+              
+              />
+            </label>
+          </div>
+          <div class="row">
+            <label for="age">
+              Age:
+              <input
+                type="text"
+                name="age"
+                id="sage"
+                
+              />
+            </label>
+          </div>
+          <div class="row">
+            <label for="password">
+              Password:
+              <input
+                type="password"
+                name="password"
+                id="spassword"
+                
+              />
+            </label>
+          </div>
+          <div class="row">
+            <h6 class="ansr"></h6>
+          </div>
+          <div class="row">
+            <button class="signbtn">sign up</button>
+          </div>
+
+          
+        
+      </div>
+    </div>
+    <!--end of signup form popup-->
+
+    <!-- BEGIN | Header -->
+    <header class="ht-header">
+      <div class="container">
+        <nav class="navbar navbar-default navbar-custom">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header logo">
+            <div
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <a href="index-2.html"
+              ><img
+                class="logo"
+                src="../image/plane.png"
+                alt=""
+                width="119"
+                height="58"
+            /></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse flex-parent"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav flex-child-menu menu-left">
+              <li><h3 class="hi">BookHunt</h3></li>
+              <li><a href="home.html">Home</a></li>
+              
+            </ul>
+            <ul class="nav navbar-nav flex-child-menu menu-right">
+              <li><a href="aboutUs.html">About</a></li>
+              <li><a href="contactUs.html">Contact</a></li>
+              <li class="loginLink"><a href="#">LOG In</a></li>
+              <li class="btn signupLink"><a href="#">sign up</a></li>
+              <!-- <li class="btn signupLink"><a href="#">logout</a></li> -->
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </nav>
+
+       
+    </header>
+    <!-- END | Header -->
+
+    <div class="slider movie-items">
+      <div class="container">
+        <div class="row">
+          <div class="slick-multiItemSlider">
+
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/hcverma.webp"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="blue"><a href="#">Physics</a></span>
+                </div>
+                <h6><a href="single.html">Concepts of Physics</a></h6>
+                <p><i class="ion-android-star"></i><span class="rate">0</span> /10</p>
+              </div>
+            </div>
+
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/knh.jpg"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="yell"><a href="#">Maths</a></span>
+                </div>
+                <h6><a href="#">Higher Algebra</a></h6>
+                <p><i class="ion-android-star"></i><span>2.5</span> /10</p>
+              </div>
+            </div>
+
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/irodov.jpg"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="blue"><a href="#">Physics</a></span>
+                </div>
+                <h6><a href="#">Problems on Physics</a></h6>
+                <p><i class="ion-android-star"></i><span>2.5</span> /10</p>
+              </div>
+            </div>
+
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/shashi.jpg"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="blue"><a href="#">Physics</a></span>
+                </div>
+                <h6><a href="#">Advanced Problem</a></h6>
+                <p><i class="ion-android-star"></i><span class="rate">2.5</span> /10</p>
+              </div>
+            </div>
+
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/halliday.jpg"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="blue"><a href="#">Physics</a></span>
+                </div>
+                <h6><a href="#">Physics for iitjee</a></h6>
+                <p><i class="ion-android-star"></i><span class="rate">2.5</span> /10</p>
+              </div>
+            </div>
+
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/balaji.jpg"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="blue"><a href="#">Physics</a></span>
+                </div>
+                <h6><a href="#">Comprehensive Physics</a></h6>
+                <p><i class="ion-android-star"></i><span class="rate">2.5</span> /10</p>
+              </div>
+            </div>
+
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/loney.png"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="yell"><a href="#">Maths</a></span>
+                </div>
+                <h6><a href="#">Coordinate Geometry</a></h6>
+                <p><i class="ion-android-star"></i><span class="rate">2.5</span> /10</p>
+              </div>
+            </div>
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/manan.jpg"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="yell"><a href="#">Maths</a></span>
+                </div>
+                <h6><a href="#">Mathematics for Jee Advanced</a></h6>
+                <p><i class="ion-android-star"></i><span class="rate">2.5</span> /10</p>
+              </div>
+            </div>
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/rdshrma.jpg"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="yell"><a href="#">Maths</a></span>
+                </div>
+                <h6><a href="#">Objective maths</a></h6>
+                <p><i class="ion-android-star"></i><span class="rate">2.5</span> /10</p>
+              </div>
+            </div>
+            <div class="movie-item">
+              <div class="mv-img">
+                <a href="#"
+                  ><img
+                    src="../image/balaji.jpg"
+                    alt=""
+                    width="285"
+                    height="437"
+                /></a>
+              </div>
+              <div class="title-in">
+                <div class="cate">
+                  <span class="yell"><a href="#">Maths</a></span>
+                </div>
+                <h6><a href="#">Mathematics for jee</a></h6>
+                <p><i class="ion-android-star"></i><span class="rate">2.5</span> /10</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- footer section-->
+    <footer class="ht-footer">
+      <div class="ft-copyright">
+        
+          <div class="ft-left">
+            <p>
+              <a target="_blank" href="#"
+                >Ishita Chauhan</a
+              >
+            </p>
+          </div>
+         
+        <div class="backtotop">
+          <p>
+            <a href="#" id="back-to-top"
+              >Back to top <i class="ion-ios-arrow-thin-up"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer section-->
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/plugins2.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/home.js"></script>
+  </body>
+
+  <!-- index14:58-->
+</html>
