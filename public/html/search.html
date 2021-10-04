@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  
+
+  <head>
+    <!-- Basic need -->
+    <title>search</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="profile" href="#" />
+    <link rel="stylesheet" href="../css/search.css">
+    <!--Google Font-->
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600"
+    />
+    <!-- Mobile specific meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone-no" />
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="../css/plugins.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!--preloading-->
+    <div id="preloader">
+      <img class="logo" src="../image/plane.png" alt="" width="119" height="58" />
+      <div id="status">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!--end of preloading-->
+    
+
+    <!-- BEGIN | Header -->
+    <header class="ht-header">
+      <div class="container">
+        <nav class="navbar navbar-default navbar-custom">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header logo">
+            <div
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <a href="index-2.html"
+              ><img
+                class="logo"
+                src="../image/plane.png"
+                alt=""
+                width="119"
+                height="58"
+            /></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse flex-parent"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav flex-child-menu menu-left">
+              <li><h6 class="hi"></h6></li>
+              <li><a href="home.html">Home</a></li>
+             
+              <!-- <li class="dropdown first">
+                <a
+                  class="btn btn-default dropdown-toggle lv1"
+                  data-toggle="dropdown"
+                  data-hover="dropdown"
+                >search -->
+                   <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> --> 
+                <!-- </a> -->
+                
+                <!-- <ul class="dropdown-menu level1">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                      >Movie grid<i class="ion-ios-arrow-forward"></i
+                    ></a>
+                    <ul class="dropdown-menu level2">
+                      <li><a href="moviegrid.html">Movie grid</a></li>
+                      <li>
+                        <a href="moviegridfw.html">movie grid full width</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="movielist.html">Movie list</a></li>
+                  <li><a href="moviesingle.html">Movie single</a></li>
+                  <li class="it-last">
+                    <a href="seriessingle.html">Series single</a>
+                  </li>
+                </ul> 
+               </li>-->
+            </ul> 
+            <ul class="nav navbar-nav flex-child-menu menu-right">
+              <li><a href="aboutUs.html">About</a></li>
+              <li><a href="contactUs.html">Contact</a></li>
+              <!-- <li class="loginLink"><a href="#">LOG In</a></li> -->
+              <li class="btn signupLink"><a href="#" id="logout">Log Out</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </nav>
+
+        <!-- top search form -->
+        <div class="top-search">
+          <select id="selectBox">
+            <option value="physics">Physics</option>
+            <option value="maths">Maths</option>
+          </select>
+          <input
+            id="see"
+            type="text"
+            placeholder="Search for a topic"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- END | Header -->
+
+    <div class="hero common-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="hero-ct">
+              <h1><a href=# id="search">Search Result</a></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-single">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            
+            <div class="flex-wrap-movielist mv-grid-fw">
+              <div class="movie-item-style-2 movie-item-style-1">
+                <img src="images/uploads/mv-it9.jpg" alt="" />
+                <div class="hvr-inner">
+                  <a href="moviesingle.html">
+                    Read more <i class="ion-android-arrow-dropright"></i>
+                  </a>
+                </div>
+                <div class="mv-item-infor" id="phy1">
+                  <h6><a href="#" class="one">Concept of Physics</a></h6>
+                  <p class="rate">
+                    <i class="ion-android-star"></i><span class="oner">2.5</span> /10
+                  </p>
+                </div>
+              </div>
+              <div class="movie-item-style-2 movie-item-style-1">
+                <img src="images/uploads/mv-item9.jpg" alt="" />
+                
+                <div class="mv-item-infor" id="phy2">
+                  <h6><a href="#" class="two"></a></h6>
+                  <p class="rate">
+                    <i class="ion-android-star"></i><span class="oner">2.5</span> /10
+                  </p>
+                </div>
+              
+              </div>
+              <div class="movie-item-style-2 movie-item-style-1">
+                <img src="images/uploads/mv-item9.jpg" alt="" />
+                
+                <div class="mv-item-infor" id="phy3">
+                  <h6><a href="#" class="three"></a></h6>
+                  <p class="rate">
+                    <i class="ion-android-star"></i><span class="oner">2.5</span> /10
+                  </p>
+                </div>
+              
+              </div>
+              <div class="movie-item-style-2 movie-item-style-1">
+                <img src="images/uploads/mv-item9.jpg" alt="" />
+                
+                <div class="mv-item-infor" id="phy4">
+                  <h6><a href="#" class="four"></a></h6>
+                  <p class="rate">
+                    <i class="ion-android-star"></i><span class="oner">2.5</span> /10
+                  </p>
+                </div>
+              
+              </div>
+              <div class="movie-item-style-2 movie-item-style-1">
+                <img src="images/uploads/mv-item9.jpg" alt="" />
+                
+                <div class="mv-item-infor" id="phy5">
+                  <h6><a href="#" class="five"></a></h6>
+                  <p class="rate">
+                    <i class="ion-android-star"></i><span class="oner">2.5</span> /10
+                  </p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section-->
+    <footer class="ht-footer">
+      <div class="ft-copyright">
+            
+        <div class="ft-left">
+          <p>
+            <a target="_blank" href="#"
+              >Ishita Chauhan</a
+            >
+          </p>
+        </div>
+        <div class="backtotop">
+          <p>
+            <a href="#" id="back-to-top"
+              >Back to top <i class="ion-ios-arrow-thin-up"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer section-->
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/plugins2.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- <script src="../js/register.js"></script> -->
+  </body>
+</html>
